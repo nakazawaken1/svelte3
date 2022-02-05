@@ -1,0 +1,2 @@
+FROM node:lts
+ENV CHOKIDAR_USEPOLLING=true
