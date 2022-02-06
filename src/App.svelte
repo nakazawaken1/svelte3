@@ -3,8 +3,7 @@
 </script>
 
 <main>
-	<Check/>
-	<Check/>
+	<Check label="男"/><Check/>
 </main>
 
 <style>

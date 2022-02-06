@@ -7,12 +7,11 @@
     export let label = "チェック"
 </script>
 
-<input id={id} type="checkbox" bind:checked/>
-<label for={id}>{label}</label>
+<input {id} type="checkbox" bind:checked/><label for={id}>{label}</label>
 
 <style lang="scss">
     input {
-        opacity: 0;
+        appearance: none;
         &:checked+label {
             background-color: gold;
         }
